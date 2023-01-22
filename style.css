@@ -1,0 +1,68 @@
+.title{
+   
+}
+.container{
+    padding: 0px 22px;
+
+}
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 2fr 1fr;
+    height: 85vh;
+    gap: 10px;
+}
+.gallery-item-1{
+    background-image: url(http://www.stylecraze.com/wp-content/uploads/2013/08/Viparita-Karani-01.jpg);
+    background-size:88%;
+    background-position-x: center;
+    background-position: center;
+
+}
+.gallery-item-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+}
+.item-1{
+    background-image: url(https://t4.ftcdn.net/jpg/04/87/37/53/360_F_487375348_Gn86FylpYo2ujYZS4ZQIQuSnZpYO8eNl.jpg);
+    background-size:cover;
+    background-position: 0%;
+}
+.item-2{
+    background-image: url(https://cdn.theindianmed.com/wp-content/uploads/2020/08/19133404/savasana-corpse-pose.jpg);
+    background-size: cover;
+    background-position: 0%;
+}
+.item-3{
+    background-image: url(https://images.ctfassets.net/p0sybd6jir6r/4XjhTcs3tOwmbCgttMJIR/16904a1b59436cd11283eb2aa0fbcd0e/Best_Yoga_Pose_for_Bodybuilders-bdacf961f67b64a02564f981a7d3c5fe.jpg?w=1600&q=70);
+    background-size: cover;
+    background-position: 0%;
+}
+.item-4{
+    background-image: url(https://www.getsweatgo.com/media/imager/201907/179-posts.homepage_preview_md.jpg);
+    background-size: cover;
+    background-position: 0%;
+}
+.gallery-item-3{
+    background-image: url(https://thumbs.dreamstime.com/b/young-woman-practicing-yoga-nature-female-happiness-landscape-background-112541885.jpg);
+    background-size:80%;
+    background-position:center ;
+    background-position-y:bottom ;
+}
+.gallery-item-4{
+    background-image: url(https://www.yogajournal.com/wp-content/uploads/2021/11/Bridge-Pose-Mod-2_Andrew-Clark_1.jpg);
+    background-size:100%;
+    background-position:center ;
+    background-position-y:bottom ;
+}
+.gallery-item-4 > .read-more{
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    bottom:20px;
+    z-index: 10;
+}
